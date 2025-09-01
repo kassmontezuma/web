@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PostureAppX</title>
+  <link rel="icon" href="img/logo1.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="img/logo1D.png" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <img src="img/logo2.png" alt="PostureUp Logo" class="logo" />
+            <div class="menu">
+                <a href="home.html">Inicio</a>
+                <a href="about.html">Sobre Nosotros</a>
+                <a href="contact.html">Contacto</a>
+                <a href="app.html" class="cta">Descargar</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container contact">
+            <div>
+                <h2>Contáctanos</h2>
+                <p>¿Dudas, sugerencias o quieres saber más sobre PostureAppX? Escríbenos.
+                    También puedes visitarnos en nuestra sede UPN.
+                </p>
+                <form id="contacto"
+                    action="https://formspree.io/f/xldwlery"
+                    method="post">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="email" name="correo" placeholder="Correo electrónico" required>
+                    <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div>
+                <div class="map">
+                    <iframe 
+                    src="https://www.google.com/maps?q=-12.058440778718728,-77.05877238483923&hl=es&z=17&output=embed" 
+                    width="100%" 
+                    height="320" 
+                    style="border:0" 
+                    loading="lazy"
+                    ></iframe>
+                </div>
+                <div class="card">
+                    <h3>Información</h3>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-map-pin"></i> 
+                            <strong>Dirección:</strong>
+                            Av. Tingo María 1122, Lima 15083, Perú
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i> 
+                            <strong>Correo:</strong>
+                            PostureUp@gmail.com
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i> 
+                            <strong>Teléfono:</strong>
+                            010-020-0340
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="foot-wrap">
+            <div>
+                <img src="img/logo2D.png" alt="PostureUp Logo" class="logo" />
+                <p>App de escritorio para mejorar <br>tu postura y bienestar laboral.</p>
+            </div>
+            <div class="foot-links">
+                <strong>Secciones</strong>
+                <a href="home.html">Inicio</a>
+                <a href="app.html">App</a>
+                <a href="about.html">Sobre Nosotros</a>
+                <a href="contact.html">Contacto</a>
+            </div>
+            <div class="foot-links">
+                <strong>Contacto</strong>
+                <a href="mailto:.......">PostureUp@gmail.com</a>
+                <a href="contact.html">010 - 020 - 0340</a>
+                <div class="social-links d-flex mt-4">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/posture_up_?igsh=czRvOWZvamRuZnY3"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">© 2025 PostureAppX.</div>
+    </footer>
+</body>
+</html>
