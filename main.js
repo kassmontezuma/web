@@ -1,15 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-
-    // Contacto
-    const form = document.getElementById("contacto");
-    if(form){
-        form.addEventListener("submit", function(event) {
-            event.preventDefault();
-            alert("¡Gracias! Responderemos pronto.");
-            this.reset();
-        });
-    }
-
     // Carrusel
     const slide = document.getElementById("carousel-slide");
     const images = slide.querySelectorAll("img");
@@ -50,3 +39,4 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+
